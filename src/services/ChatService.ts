@@ -1,6 +1,7 @@
 import * as signalR from '@microsoft/signalr';
 import axios from 'axios';
 
+axios.defaults.headers.common['ngrok-skip-browser-warning'] = 'true';
 axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
 axios.defaults.headers.common['Access-Control-Allow-Methods'] = 'GET, POST, PUT, DELETE, OPTIONS';
 axios.defaults.headers.common['Access-Control-Allow-Headers'] = 'Origin, X-Requested-With, Content-Type, Accept';
