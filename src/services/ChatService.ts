@@ -10,9 +10,9 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 axios.defaults.timeout = 10000; 
 
-const API_BASE_URL = 'https://f6ff-2804-7f2-7900-86bb-cd9f-68fb-a91a-5141.ngrok-free.app/api';
+const API_BASE_URL = 'https://c8a8-2804-214-8848-b39b-c80b-1c29-385b-2512.ngrok-free.app/api';
 
-const SIGNALR_URL = 'https://f6ff-2804-7f2-7900-86bb-cd9f-68fb-a91a-5141.ngrok-free.app/chatHub';
+const SIGNALR_URL = 'https://c8a8-2804-214-8848-b39b-c80b-1c29-385b-2512.ngrok-free.app/chatHub';
 
 export interface ChatMessage {
   sender: string;
